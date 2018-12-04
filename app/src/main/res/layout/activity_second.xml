@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="设置" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="时间定时器"
+            android:textSize="26sp"/>
+
+        <TimePicker
+            android:id="@+id/timepick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner">
+
+        </TimePicker>
+
+        <Switch
+            android:id="@+id/sw_alipay_forest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="森林"/>
+
+        <Switch
+            android:id="@+id/sw_keep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="keep"/>
+
+        <Switch
+            android:id="@+id/sw_liangtong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="联通"/>
+
+        <Switch
+            android:id="@+id/sw_wechart_motion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="微信"/>
+        <TextView
+            android:id="@+id/tv_readme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/readme"/>
+    </LinearLayout>
+
+</ScrollView>
+
